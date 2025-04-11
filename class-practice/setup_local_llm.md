@@ -1,12 +1,8 @@
 # Setup Instructions (Using Locally Hosted LLAMA)
 
-1. Download the [zipped lecture folder](https://drive.google.com/file/d/1s3an7jfe4upxEZhvoLSsnK2I8bzKYYOd/view?usp=drive_link) onto your laptop.
+1. Create a directory for this activity
       * `mkdir ~/Desktop/local-llm-practice`
-      * Download to your `~/Desktop/local-llm-practice/` directory.
-      * You should now have `~/Desktop/local-llm-practice/LLM_Infrastructure_Class_Exercise.zip`
-3. Unzip the folder, navigate to the root, and open it in either VSCode or Jupyter Lab.
-      * To unzip, navigate to the folder from your laptop's file finder app, then click on the zip file. This should unzip the file.
-5. To host the LLAMA model locally, download the quantized model from Hugging Face.
+5. To host a LLAMA model locally, download the quantized model from Hugging Face.
 6. Install Hugging Face Hub:
    ```
    cd ~/Desktop/local-llm-practice
